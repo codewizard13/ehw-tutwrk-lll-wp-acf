@@ -1,37 +1,53 @@
-# Project Name:   EHW APP: Scrape Upwork Job Details
-# Main Prj File:  controller.php
-# 
+# Project:        MASTER GITIGNORE FILE
+#
 # This Filename:  .gitignore
-# Date Created:   01/19/22
-# Date Updated:   01/08/23
+# Date Created:   01/20/22
+# Date Updated:   --
 # Programmer:     Eric L. Hepperle
 # 
 # File Version:    1.00.00
 # 
 # File Purpose:
-#   This is the .gitignore file I created for myself based largely
-#   on the global .gitignore file from my job as a Jr. Software Developer
-#   at Hewlett-Packard in Vancouver, WA in 2013. You may use this
-#   .gitignore file freely at your own risk.
+#   This is the master .gitignore file I created for my own use. You are free to copy and use this file at your own risk.
+#
+#######################################################
 
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
 
-# Folder config file
-# Desktop.ini
+
+# WINDOWS #
+#######################################################
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
+# Windows folder config file: Uncomment if you want custom folder icon changes to be tracked
+# Desktop.ini
+
+
+# MAC OS #
+#######################################################
+.DS_Store
+
+
+# GIT #
+#######################################################
+.git/
+
+
 # Images & Binaries #
-#####################
+#######################################################
 #*.jpg
 #*.gif
 #*.png
 
+# Windows image file caches
+Thumbs.db
+
+# WordPress Uploads
+uploads/
+
 # Compiled source #
-###################
+#######################################################
 *.com
 *.class
 *.dll
@@ -39,8 +55,9 @@ $RECYCLE.BIN/
 *.o
 *.so
 
+
 # Compressed #
-############
+#######################################################
 # it's better to unpack these files and commit the raw source
 # git has its own built in compression methods
 *.7z
@@ -52,12 +69,14 @@ $RECYCLE.BIN/
 *.tar
 *.zip
 
+
 # Modules & Packages #
-######################
-node_modules
+#######################################################
+node_modules/
+
 
 # Logs and databases #
-######################
+#######################################################
 *.log
 *.sql
 *.sqlite
@@ -75,28 +94,40 @@ node_modules
 /*.sublime-*
 /*~
 
-# Ignore .project file from Aptana
-/.project
 
-# MAC
-.DS_Store
+# APPLICATIONS #
+#######################################################
 
-# HP Savings Center-Printables group
+# DevOps: Chef, Puppet, Gulp, Grunt, etc
 .gemrc
 chef/
 public/assets/
 
-# Eric's ignores (11/29/21)
-.git/
-#pix/
-#_pix/
-#images/
-#_images/
+# Aptana
+/.project
 
-# TEMPORARILY:
-# Readme.md
-#docs/
 
-# WordPress
-uploads/
-upgrade/
+# Eric's Custom Files and Folders to Ignore
+#######################################################
+
+# Private Files, Credentials, Secrets #
+#######################################################
+private/
+*credential*
+*private*
+
+# Auth Tokens & API Keys
+token.json
+
+# Sandboxes & Junk Files
+sb/
+sandbox/
+playground/
+junk/
+*junk*
+
+# Screenshots
+# screens/
+
+
+# This file is always evolving. Refer to the link at __LINK_HERE__ for the latest.
