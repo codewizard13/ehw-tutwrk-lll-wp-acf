@@ -1,17 +1,16 @@
-| INFO PROPERTY        | VALUE                                           |
-| -------------------- | ----------------------------------------------- |
-| **Course Name**      | **WordPress: Custom Post Types and Taxonomies** |
-| File Name            | README.md                                       |
-| Date Created         | 01/25/23                                        |
-| Date Modified        | --                                              |
-| Platform             | LinkedIn Learning                               |
-| Version              | 0.0.1                                           |
-| Programmer / Student | **Eric Hepperle**                               |
+| INFO PROPERTY        | VALUE                                            |
+| -------------------- | ------------------------------------------------ |
+| **Course Name**      | **WordPress: WordPress: Advanced Custom Fields** |
+| File Name            | README.md                                        |
+| Date Created         | 01/25/23                                         |
+| Date Modified        | --                                               |
+| Platform             | LinkedIn Learning                                |
+| Version              | 0.0.1                                            |
+| Programmer / Student | **Eric Hepperle**                                |
 
-* **Course URL:** https://www.linkedin.com/learning/wordpress-custom-post-types-and-taxonomies-3/
+* **Course URL:** https://www.linkedin.com/learning/wordpress-advanced-custom-fields/
 
 ### TECHNOLOGIES
-
 
 <img align="left" alt="WordPress" title="WordPress" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" style="padding-right:10px;" />
 
@@ -23,7 +22,8 @@
 <br>
 
 ## TAGS
-`WordPress` `Custom Post Types` `Taxonomies` `WP` `Categories & Tags` `Plugins` `LinkedIn Learning`
+
+`WordPress` `ACF` `Advanced Custom Fields` `Custom Post Types` `WP` `Post Meta` `Plugins` `LinkedIn Learning`
 
 ## Purpose
 
@@ -37,19 +37,23 @@
 
 ### Course Details
 
-| Course Duration  | 2h 9m    |
-| ---------------- | -------- |
-| Experience Level | Advanced |
-| Released         | 8/8/2019 |
+| Course Duration  | 1h 28m    |
+| ---------------- | --------- |
+| Experience Level | Advanced  |
+| Released         | 6/24/2019 |
 
 ### Course Description:
 
-<div>WordPress is a powerful content management system—but it shines with customization. For example, there are seven default post types, organized using built-in taxonomies like categories and tags. But you can display different types of content according to your own rules by creating custom post types and taxonomies. Best of all, you can customize these elements without a lot of code. In this course, Joe Casabona shows how to create new post types and taxonomies, create a theme-agnostic plugin to house them, and build templates that display the custom post types in effective ways. Plus, learn how to move your custom post types and taxonomies to existing themes to leverage them in current sites.</div>
-          
+<div>
+<p>By default, WordPress posts and pages have a limited set of data input fields. To collect and display custom data, you need external tools. This is where Advanced Custom Fields comes in handy. Using this plugin, you can create new custom fields that allow you to collect and display more information than is possible with the standard field set.</p>
 
+<p>In this course, Joe Casabona explains how to use Advanced Custom Fields to create custom field groups and fields; add them to your theme with HTML, CSS, and PHP; and even create a Gutenberg block without using JavaScript. Plus, learn how to write rules to control field display and export field groups for use in another WordPress site.
+</p></div>
+          
 ### Skills Covered
 
 - [WordPress](https://www.linkedin.com/learning/search?keywords=WordPress)
+
 
 ### Instructor
 
